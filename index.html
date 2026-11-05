@@ -1,88 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cebu Bohol Happy Tours Adventure</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cebu Bohol Happy Tours Adventure</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <img src="#" href="index.html" alt="Logo of Cebu Bohol Tours Happ Adventure"/>
-        <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="tours.html">Tours/Packages</a></li>
-            <li><a href="destinations.html">Destinations</a></li>
-            <li><a href="ratings.html">Ratings</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><button>Book Now</button></li>
-        </ul>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Cebu Bohol Happy Tours Adventure home">
+      <span class="brand-mark" aria-hidden="true">☀</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="packages.html" class="button button-outline">Packages</a>
+      <a href="contact.html" class="button button-primary">Book Now</a>
     </nav>
+  </header>
 
-    <!-- Hero Section -->
+  <main>
     <section class="hero">
-        <img src="placeholder-image.jpg" alt="Main photo">
-        <p class="tagline">Tagline</p>
-        <h1>Hero heading of moderate length goes here</h1>
-        <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicatque usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut.</p>
-        <button>Button</button>
-        <button>Button</button>
+      <div class="hero-content">
+        <h1>Experience Cebu and Bohol</h1>
+        <p>Discover beauty. Immerse in culture.</p>
+        <a href="#features" class="button button-primary">Explore</a>
+      </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features">
-        <p class="tagline">Tagline</p>
-        <h2>Medium length features headline</h2>
-        <p>Lorem ipsum dolor sit amet et delectus accommodare.</p>
-        
-        <div class="features-grid">
-            <div class="feature-card">
-                <div class="icon">Icon</div>
-                <h3>Medium length headline</h3>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicatque.</p>
-            </div>
-            
-            <div class="feature-card">
-                <div class="icon">Icon</div>
-                <h3>Medium length headline</h3>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicatque.</p>
-            </div>
-            
-            <div class="feature-card">
-                <div class="icon">Icon</div>
-                <h3>Medium length headline</h3>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicatque.</p>
-            </div>
-            
-            <div class="feature-card">
-                <div class="icon">Icon</div>
-                <h3>Medium length headline</h3>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicatque.</p>
-            </div>
-        </div>
+    <section class="features section" id="features">
+      <article class="feature-card">
+        <div class="feature-icon" aria-hidden="true">✿</div>
+        <h2>Adventure Tours</h2>
+        <p>Explore Cebu and Bohol with our curated adventure tours, designed to showcase the beauty and culture of the islands.</p>
+        <a href="packages.html" class="button button-primary">Explore</a>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon" aria-hidden="true">✿</div>
+        <h2>Personalized Itineraries</h2>
+        <p>Explore Cebu and Bohol with our curated adventure tours, designed to showcase the beauty and culture of the islands.</p>
+        <a href="contact.html" class="button button-primary">Contact Us</a>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon" aria-hidden="true">✿</div>
+        <h2>Reliable Transportation</h2>
+        <p>Explore Cebu and Bohol with our curated adventure tours, designed to showcase the beauty and culture of the islands.</p>
+        <a href="packages.html" class="button button-primary">Learn More</a>
+      </article>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="logo">Logo</div>
-            <ul>
-                <li><a href="index.html">Link one</a></li>
-                <li><a href="about.html">Link two</a></li>
-                <li><a href="tours.html">Link three</a></li>
-                <li><a href="destinations.html">Link four</a></li>
-            </ul>
-            <div class="social-icons">
-                <a href="#">Instagram</a>
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-            </div>
+    <section class="gallery section">
+      <p class="eyebrow">Immerse in beauty.</p>
+      <h2 class="section-title">Image Gallery</h2>
+      <p class="section-intro">Browse stunning photos of the beautiful destinations and attractions you’ll visit on your tour.</p>
+      <div class="section-rule"></div>
+
+      <div class="gallery-grid" aria-label="Tour destination photo gallery">
+        <div class="photo-placeholder"></div>
+        <div class="photo-placeholder"></div>
+        <div class="photo-placeholder"></div>
+        <div class="photo-placeholder"></div>
+        <div class="photo-placeholder"></div>
+        <div class="photo-placeholder"></div>
+        <div class="photo-placeholder"></div>
+        <div class="photo-placeholder"></div>
+        <div class="photo-placeholder"></div>
+      </div>
+    </section>
+
+    <section class="testimonials section">
+      <p class="eyebrow">Explore Beyond the Ordinary</p>
+      <h2 class="section-title">What Our Adventurers Are Saying</h2>
+      <div class="testimonial-content">
+        <span class="testimonial-arrow" aria-hidden="true">‹</span>
+        <div>
+          <blockquote>“I love the adventures. The driver is so accommodating and very transparent!”</blockquote>
+          <p class="testimonial-name">Jessica Tan</p>
+          <div class="testimonial-dots" aria-hidden="true"><span></span><span></span><span></span></div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Your Website. All rights reserved.</p>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-        </div>
-    </footer>
+        <span class="testimonial-arrow" aria-hidden="true">›</span>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Ready to experience paradise? Book your adventure today!</h2>
+      <div class="cta-actions">
+        <a href="packages.html" class="button button-light">View Packages</a>
+        <a href="contact.html" class="text-link">Contact Us <span aria-hidden="true">›</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-rule"></div>
+    <div class="footer-content">
+      <a class="brand" href="index.html" aria-label="Cebu Bohol Happy Tours Adventure home">
+        <span class="brand-mark" aria-hidden="true">☀</span>
+      </a>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="packages.html">Packages</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <div class="social-links" aria-label="Social media links">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Messenger">⌁</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
