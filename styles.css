@@ -623,6 +623,10 @@ a {
 }
 
 .feature-icon {
+  width: 30px;
+  height: 30px;
+  display: block;
+  object-fit: contain;
   color: #ff4a70;
   font-size: 31px;
   line-height: 30px;
@@ -800,6 +804,18 @@ a {
   background: #1263e8;
   font-size: 19px;
   font-weight: 700;
+}
+
+.social-links img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 0;
+  object-fit: contain;
+}
+
+.social-links a:has(img) {
+  background: transparent;
 }
 
 /* Responsive design */
@@ -2488,4 +2504,15 @@ a {
 .footer-rule {
   width: 100vw;
   margin-left: calc(50% - 50vw);
+}
+
+/* Use the shared site yellow consistently */
+.inclusions,
+.custom-itinerary,
+.cta,
+.button-light,
+.day-block h3,
+.day-block li.has-optional::before,
+.destination-modal-close {
+  background: var(--yellow);
 }
